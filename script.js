@@ -44,7 +44,7 @@ function createPlaylist() {
         `;
         playlist.append(song);
     });
-    console.log(playlist)
+    console.log(playlist);
     document.querySelector('.playlist').append(playlist);
 }
 createPlaylist();
@@ -145,7 +145,7 @@ function hideBtn(btn) {
 }
 
 playlistBtn.addEventListener('click', () => {
-    console.log(playlist)
+    console.log(playlist);
     if (!playlist.classList.contains('active')) {
         playlist.classList.add('active');
     } else {
